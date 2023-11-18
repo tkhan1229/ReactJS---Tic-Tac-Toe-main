@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  padding: 50px;
+}
+h1 {
+  font-size: 50px;
+  color: #381d2a;
+}
+body {
+  font: 17px Helvetica, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+a {
+  color: #dc8100;
+  text-decoration: none;
+}
+a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+#instructions {
+  background-color: #ebeff3;
+  text-align: center;
+  padding: 1%;
+  width: 70%;
+  margin: auto;
+}
+
+.square {
+  height: 190px;
+  width: 190px;
+  background-color: #dee2e6;
+  display: inline-block;
+  font-size: 400%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 190px 190px 190px;
+  grid-template-rows: 190px 190px 190px;
+  justify-content: center;
+}
+
+#playerX {
+  color: #3e6990;
+}
+
+#player0 {
+  color: #aabd8c;
+}
+
+.status {
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+}
